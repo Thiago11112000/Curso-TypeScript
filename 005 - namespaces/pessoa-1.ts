@@ -5,11 +5,20 @@
 */
 
 export namespace Pessoa1 {
+  export namespace Pessoa1 {
     const data = 1 + 1;
-  
-    export let nome = "Joao";
+    export const nome = "Maria";
     export const calc = () => {
       return data;
     };
+  }
+  
+  export namespace Joao {
+    const data = 1 + 1;
+    export const nome = "João";
+    export const calc = () => {
+      return data;
+    };
+  }
   }
 
